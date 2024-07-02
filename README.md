@@ -8,54 +8,55 @@ Here are instructions for how to install this locally on the repo:
 
 1. Clone the repo:
 
-``` bash
+```bash
 git clone https://github.com/fac29/CookWithWhat-FE.git
 ```
 
 2. Navigate to the repo:
 
-``` bash
+```bash
 cd CookWithWhat-FE
 ```
 
 3. Install NPM packages:
 
-``` bash
+```bash
 npm install
 ```
 
 4. Create a .env file :
 
-``` bash
- touch .env.development 
-``` 
+```bash
+ touch .env.development
+```
+
 and include the following line:
 
-``` env
+```env
 VITE_REQUEST_URL = "your_local_develpment_server_adress eg. http://localhost:3000"
 ```
 
 5. Create a .env file:
 
-``` bash 
+```bash
 touch .env.production
- ```
- 
- and include the following line:
+```
 
-``` env
+and include the following line:
+
+```env
 VITE_REQUEST_URL = "your_production_backend_server_url"
 ```
 
 4. Enter the following script to run the server in the development mode:
 
-``` bash
+```bash
 npm run dev
 ```
 
 5. To build the app for production use the following script:
 
-``` bash 
+```bash
 npm run build
 ```
 
