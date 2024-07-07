@@ -8,7 +8,7 @@ export default function App() {
             <div>
                 <Button
                     btnText="hello"
-                    btnonClick={() => console.log("hello")}
+                    btnonClick={() => alert("hello")}
                     btnclassName="color-red bg-cprimary py-[8px] px-[16px] border-2 border-black rounded-[8px]"
                 />
             </div>
