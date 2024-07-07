@@ -11,10 +11,10 @@
     font-size: 16px;
     scroll-behavior: smooth;
     font-family: Inter, Helvetica, Arial, sans-serif;
-    --colorDark: #003153; /* Darker background for better contrast */
-    --colorLight: ##f7f9f9; /* Lighter color for text */
-    --colorPrimary: #a1f7a6; /* Calmer primary color */
-    --colorSecondary: #9381ff; /* Contrasting secondary color */
+    --colorDark: #003153;
+    --colorLight: ##f7f9f9;
+    --colorPrimary: #a1f7a6;
+    --colorSecondary: #9381ff;
 }
 
 body {
